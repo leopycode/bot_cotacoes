@@ -8,7 +8,7 @@ cot_dolar = cotacao["USDBRL"]["bid"]
 cot_euro = cotacao["EURBRL"]["bid"]
 cot_libra = cotacao["GBPBRL"]["bid"]
 
-chave_api = ""
+chave_api = ""    #    Token fornecido pelo Telegram
 
 bot = telebot.TeleBot(chave_api)
 
